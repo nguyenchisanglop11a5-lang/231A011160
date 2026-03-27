@@ -1,0 +1,25 @@
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Album Ảnh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Album Ảnh</h1>
+
+<div class="gallery">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.ibifWZYnhi6cns2KoHOTuwHaFK?pid=Api&P=0&w=300&h=300" onclick="openModal(this)">
+    <img src="https://imgt.taimienphi.vn/cf/Images/ba/2021/8/6/anh-dong-vat-1.jpg" onclick="openModal(this)">
+    <img src="https://photo2.tinhte.vn/data/attachment-files/2023/10/8161891_photo-5770315371818103313-y.jpg" onclick="openModal(this)">
+ </div>
+
+<!-- Modal -->
+<div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
+
+<script src="cript.js"></script>
+</body>
+</html>
